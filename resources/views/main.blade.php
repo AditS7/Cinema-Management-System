@@ -10,7 +10,15 @@
     <body>
         <div class="header">
             @include('layouts.navigationbar')
-            @include('layouts.slideshow')
+            <section class="banner">
+                @yield('banner')
+            </section>
         </div>
-    </body>  
-</html>
+        <section class="container">
+            @yield('container')
+        </section> 
+        <section class="footer">
+            @yield('footer')
+        </section>
+    </body>
+<html>

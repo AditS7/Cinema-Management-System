@@ -2,7 +2,7 @@
     background-color: #335289  ;
     color: white;
     font-size: 24px;
-    padding-bottom: 60px;
+    padding-bottom: 5px;
     padding-top: 5px;
   }
   .header_name{  
@@ -16,6 +16,12 @@
     width: 100%;
     background: rgba(0, 0, 0, 0.2);
   }
+
+  .navbar li{
+    list-style-type: none;
+    float: left;
+    display: block;
+  }
   
   .navbar a {
     float: left;
@@ -25,6 +31,10 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+  }
+
+  li.active{
+    background: #292524;
   }
   
   .navbar a:hover {
@@ -40,7 +50,6 @@ img {vertical-align: middle;}
   max-width: 100%;
   position: relative;
   margin: 10px;
-  margin-top: -30px;
 }
 
 /* The dots/bullets/indicators */
@@ -52,10 +61,6 @@ img {vertical-align: middle;}
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
-}
-
-.active {
-  background-color: #717171;
 }
 
 /* Fading animation */
@@ -80,3 +85,35 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+
+.container{
+    background-color: #DFD9D5 ;
+    margin-top: -30px;
+}
+.main_contain{
+    font-size: 24px;
+    margin: 30px;
+    text-align: justify;
+    margin-bottom: -23px;
+}
+
+.contain_header{
+    color: #E35336 ;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.main-footer{
+    text-align: center;
+    background-color: #335289;
+    height: 50px;
+    font-size: 18px;
+    padding-top: 25px;
+    color: white;
+}
+
+.main-footer a{
+    text-decoration: none;
+    color: white;
+}
+
