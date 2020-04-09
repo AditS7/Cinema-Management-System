@@ -7,6 +7,6 @@
     <li class="@if(Request::is('*/abc*')) {{ 'active' }} @endif"><a href="#contact">Book Ticket</a></li>
     <li class="@if(Request::is('*/abc*')) {{ 'active' }} @endif"><a href="#contact">Register</a></li>
     <li class="@if(Request::is('*/abc*')) {{ 'active' }} @endif"><a href="#contact">Login</a></li>
-    <li class="@if(Request::is('*/abc*')) {{ 'active' }} @endif"><a href="#contact">Contact Us</a></li>
+    <li class="@if(Request::is('contact')) {{ 'active' }} @endif"><a href="{{url('/contact')}}">Contact Us</a></li>
     </div>
 </div>

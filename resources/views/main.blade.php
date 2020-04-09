@@ -17,8 +17,13 @@
         <section class="container">
             @yield('container')
         </section> 
+        <section class="secondcontainer">
+            @yield('secondcontainer')
+        </section>
+        <footer> 
         <section class="footer">
             @yield('footer')
         </section>
+        </footer>
     </body>
 <html>
